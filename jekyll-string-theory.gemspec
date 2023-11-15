@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-string-theory"
   spec.version       = "0.1.0"
-  spec.authors       = ["LunaRoseManro"]
+  spec.authors       = ["LunaRoseManor"]
   spec.email         = ["lunarosemanor@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "The smallest jekyll theme in the universe!"
+  spec.homepage      = "https://github.com/LunaRoseManor/jekyll-string-theory"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
