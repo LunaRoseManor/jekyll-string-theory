@@ -1,8 +1,7 @@
 ---
 layout: default
+title: Hello, World!
 ---
-
-Hello, World!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus dolor purus
@@ -22,3 +21,7 @@ vulputate enim nulla aliquet porttitor.
 
 *Italic*
 **Bold**
+Underline
+---
+
+[A Search Engine](https://duckduckgo.com/)
