@@ -1,5 +1,7 @@
 <header>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a href="{{ "/" | relative_url }}" style="text-decoration: none;">
+        <h1>{{ site.title | escape }}</h1>
+    </a>
     {%- comment -%}
         I've been working on this for four hours so I'll keep it simple.
 
@@ -35,3 +37,4 @@
         </nav>
     {%- endif -%}
 </header>
+<hr>
