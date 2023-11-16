@@ -1,3 +1,12 @@
 <footer>
-    <small>Copyright &copy; {{ site.author }}</small>
+    {%- if site.license -%}
+    <small>{{ site.license }}</small>
+    {%- endif -%}
+    <br>
+    <small>
+        Made with
+        <a>Jekyll</a>
+        and
+        <a href="https://github.com/LunaRoseManor/jekyll-string-theory/">String Theory</a>
+    </small>
 </footer>
