@@ -1,2 +1,4 @@
-title: ma nimi
-author: jan Jondo
+title: nimi li sina ilo
+author: jan Jando
+styles: # You can include additional stylesheets into the default template here
+  - /assets/normalize.css

@@ -7,7 +7,7 @@
 
         Adding in a nav element to the header introduces a tricky problem. How
         do you make it respond to the user's file structure without them having
-        to code anything?
+        to code anything? How do you stop it throwing a tantrum?
 
         Jekyll doesn't really have anything built in to do this. You get a
         small handful of local variables. Liquid also doesn't have regular
@@ -20,7 +20,6 @@
         Otherwise, the user can set which pages are navigable through data, as
         recommended by the official Jekyll tutorial:
         - https://jekyllrb.com/tutorials/navigation/
-        - 
     {%- endcomment -%}
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
